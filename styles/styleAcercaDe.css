@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+/* Para que le pongo a un elemento que tenga 200 pixeles de ancho, tenga esos pixeles de ancho incluyendo los paddings y los bordesy todas estas propiedades */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.contenedor {
+  width: 100%;
+  max-width: 1000px;
+  /* background: #589e67; */
+  margin: auto; /* Para centrar los elementos */
+  overflow: hidden;
+}
+
+/* ----------------------------  HEADER ---------------------------- */
+
+header {
+  color: white; 
+  padding: 10px;
+  width: 100%; 
+  max-height: 489px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-size: cover; /* Ajustar el tamaño de la imagen al contenedor */
+  background-position: center; /* Centrar la imagen en el contenedor */
+  background-image: linear-gradient(
+      90deg,
+      rgba(141, 26, 171, 0.9) 0%,
+      rgba(130, 39, 205, 0.9) 14%,
+      rgba(123, 48, 229, 0.9) 34%,
+      rgba(91, 71, 213, 0.9) 54%,
+      rgba(59, 64, 176, 0.9) 64%,
+      rgba(24, 57, 135, 0.9) 77%,
+      rgba(24, 39, 127, 0.9) 87%,
+      rgba(25, 10, 113, 0.9) 100%
+    ),
+    url("../img/fondo.png"); /* Ruta de la imagen de fondo */
+}
+
+header .menu-acercade {
+  margin: 20px 0;
+  text-align: right;
+  display: inline-block;
+  width: 100%;
+}
+
+header .menu-acercade a {
+  margin: 0 10px;
+  color: #ffffff;
+  padding-bottom: 9px;
+  /* display: inline-block; */
+
+  text-decoration: none;
+  border-bottom: 2px solid transparent; /* se coloca porque si no queda un salto */
+  font-size: 1em;
+}
+
+header .menu-acercade a:hover {
+  border-bottom: 2px solid #1218b6;
+}
+
+header .contenedor-texto {
+  display: flex;
+  margin: 190px 20px 190px 20px;
+}
+
+.texto {
+  text-align: center;
+}
+
+.texto h3 {
+  font-size: 18px;
+  color: rgba(123, 48, 229);
+}
+
+.texto p {
+  color: rgba(25, 10, 113);
+}
+
+/* ---------------------------- FOOTER ---------------------------- */
+
+footer {
+  position: relative;
+  color: white; /* Color del texto en el footer */
+  padding: 0px; /* Espaciado interno del contenido del footer */
+  width: 100%; /* Centra el contenedor en el medio */
+  height: 150px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-size: cover; /* Ajustar el tamaño de la imagen al contenedor */
+  background-position: center; /* Centrar la imagen en el contenedor */
+  background-image: linear-gradient(
+      to right,
+      rgba(25, 10, 113, 0.52) 0%,
+      12.895256916996049%,
+      rgba(33, 129, 231, 0.52) 25.790513833992097%,
+      36.709486166007906%,
+      rgba(123, 48, 229, 0.52) 47.62845849802372%,
+      60.37549407114625%,
+      rgba(141, 26, 171, 0.52) 73.12252964426878%,
+      86.56126482213439%,
+      rgba(255, 255, 255, 0.52) 100%
+    ),
+    url("../img/fondoFooter.png"); /* Ruta de la imagen de fondo */
+}
+
+.contenedor-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.sobreponer-texto {
+  position: absolute;
+  width: 100%;
+  display: block;
+  bottom: 0px; /*Posicionar abajo */
+  background-color: rgba(25, 10, 113, 0.8);
+}
+
+.parrafo-footer {
+  text-align: center;
+}

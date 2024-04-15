@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- FAVICION -->
+
+  <!-- REMIX ICONS -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <!-- SWIPER CSS -->
+
+  <link rel="stylesheet" href="styles/styleMainPage.css">
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6VHnmbUbw_YfqqOz-mH2byqpqVi4zKtI&" defer></script>
+
+  <!-- SCRIPT GOOGLE MAPS -->
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+  <title>Main Page Terminal</title>
+
+
+</head>
+
+<body>
+
+  <header class="header" id="header">
+
+    <section class="navegacion">
+      <img id="logo" src="images/logo.png" alt="logo querer tour">
+
+      <section class="navegacion2">
+          <a href="acercaDe.html">Acerca de</a>
+        
+          <nav role="navigation" class="primary-navigation">
+              <ul>
+                <li><a href="#">Pueblos &dtrif;</a>
+                  <ul class="dropdown" id="listaPueblos">
+                    <!-- dinamicamente con javascript -->
+                  </ul>
+                </li>
+              </ul>
+          </nav>
+
+          <nav role="navigation" class="primary-navigation">
+              <ul>
+                <li><a href="#">Sitios de Medellín &dtrif;</a>
+                  <ul class="dropdown" id="listaMedellin">
+                    <!-- dinamicamente con javascript -->
+                  </ul>
+                </li>
+              </ul>
+          </nav>
+
+          <nav role="navigation" class="primary-navigation">
+            <ul>
+              <li><a href="#">Comercio Pueblos &dtrif;</a>
+                <ul class="dropdown">
+                  <li><a href="/pueblos/comercioPueblos.html">Ir</a></li>
+                </ul>
+              </li>
+            </ul>
+        </nav>
+
+          <nav role="navigation" class="primary-navigation">
+              <ul>
+                <li><a href="#">idiomas &dtrif;</a>
+                  <ul class="dropdown">
+                    <li><a href="#">Español</a></li>
+                    <li><a href="#">Ingles</a></li>
+                  </ul>
+                </li>
+              </ul>
+          </nav>
+
+      </section>
+
+      <!-- Menu para celular -->
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" style="margin-top: 10px; margin-left: 80px;" class="closebtn" >&times;</a>
+    <a href="acercaDe.html">Acerca de</a>
+    <a class="dropdown-btn">Pueblos &dtrif; 
+      <i class="fa fa-caret-down"></i></a>
+    <div class="dropdown-container">
+      <a href="/pueblos/pueblo.html?town=Amagá">Amagá</a>
+      <a href="/pueblos/pueblo.html?town=Andes">Andes</a>
+      <a href="/pueblos/pueblo.html?town=Jardín">Jardín</a>
+      <a href="/pueblos/pueblo.html?town=Jericó">Jérico</a>
+      <a href="/pueblos/pueblo.html?town=La+Ceja">La Ceja</a>
+      <a href="/pueblos/pueblo.html?town=Támesis">Támesis</a>
+      <a href="/pueblos/pueblo.html?town=Venecia">Venecia</a>
+    </div>
+    <a class="dropdown-btn">Sitios de Medellin &dtrif; 
+      <i class="fa fa-caret-down"></i></a>
+    <div class="dropdown-container">
+      <a href="index.html">Comuna 13 (Graffitour - Escaleras eléctricas)</a>
+      <a href="index.html">Jardín Botánico</a>
+      <a href="index.html">Museo Casa de la memoria</a>
+      <a href="index.html">Museo El Castillo</a>
+      <a href="index.html">Parque Arví</a>
+      <a href="index.html">Parque Botero</a>
+      <a href="index.html">Parque de la Conservación (Antes Zoológico de Santa Fé)</a>
+      <a href="index.html">Parque Explora</a>
+      <a href="index.html">Parque Pies Descalzos</a>
+      <a href="index.html">Planetario</a>
+      <a href="index.html">Pueblito Paisa(Cerro Nutibara)</a>
+  
+    </div>
+    <a href="/pueblos/comercioPueblos.html">Comercio Pueblos</a>
+    <a href="#">Idiomas</a>
+  </div>
+  
+  <div class="open" style="text-align: right"> <span style="font-size:30px;cursor:pointer" id="open">&#9776;</span></div>
+    
+  </header>
+
+  <main class="main">
+
+    <!-- HOME -->
+    <section class="home" id="home">
+      <img src="images/imgPueblos/andes.jpg" width="300px" height="200" alt="" class="home__img">
+
+      <div class="home__container container grid">
+        <div class="home__data">
+          <span class="home__data-subtitle">En Antioquia</span>
+          <h1 class="home__data-title">Explora <br> <b>la magia <br> de los pueblos </b> </h1>
+        </div>
+
+        <div class="home__social">
+          <a href="" target="_blank" class="home__social-link">
+            <i class="ri-facebook-box-fill"></i>
+          </a>
+
+          <a href="" target="_blank" class="home__social-link">
+            <i class="ri-instagram-fill"></i>
+          </a>
+
+          <a href="" target="_blank" class="home__social-link">
+            <i class="ri-twitter-x-fill"></i>
+          </a>
+        </div>
+
+        
+      </div>
+
+
+    </section>
+
+  </main>
+
+
+  <!-- INICIO - INSERTANDO CARDS CON LAS IMAGENES DE LOS PUEBLOS -->
+  <!-- town-cards -->
+  <div class="container-town-cards">
+
+  </div>
+  <!-- FINAL - INSERTANDO CARDS CON LAS IMAGENES DE LOS PUEBLOS -->
+
+
+  <!-- Modal -->
+  <!-- Button trigger modal -->
+  <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Launch demo modal
+    </button> -->
+
+  <!-- INICIO Modal Pueblos-->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <!-- Datos que van dentro del modal (mapa, imagen, etc, se pintan acá)-->
+        <div class="modal-body-container-maps">
+          <!-- AQUÍ VA EL MAPA CON LA BREVE DESCRIPCIÓN DE LOS PUEBLOS-->
+
+          <div id="container" class="modal_body_map">
+            <div id="map"></div>
+          </div>
+          <p id="distancia"></p>
+          <div id="descripcion"></div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END modal Pueblos -->
+
+
+  <!-- Modal y div mapa pueblos referenciados -->
+
+  <h1 class="centrarTitulo">Mapa pueblos</h1>
+
+  <div class="contPueblo">
+    <div id="map2"></div>
+  </div>
+
+
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-primary" id="btnOpenModal2" data-bs-toggle="modal"
+    data-bs-target="#exampleModal2">
+    Launch demo modal
+  </button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel2"></h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body2">
+
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="" class="d-block w-100 imgMapasPueblos" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h4></h4>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="" class="d-block w-100 imgMapasPueblos" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h4></h4>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="" class="d-block w-100 imgMapasPueblos" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h4></h4>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="" class="d-block w-100 imgMapasPueblos" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h4></h4>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="" class="d-block w-100 imgMapasPueblos" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h4></h4>
+                </div>
+              </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Fin Modal pueblos referenciados -->
+
+  <h1 class="centrarTitulo">Mapa sitios turisticos Medellín</h1>
+  <!-- INICIO - INSERTANDO CARDS CON LAS IMAGENES DE LOS SITIOS DE INTERÉS DE MEDELLÍN -->
+  <div id="cards_medellin" class="container-sites-medellin-cards"></div>
+  <!-- FINAL - INSERTANDO CARDS CON LAS IMAGENES DE LOS SITIOS DE INTERÉS DE MEDELLÍN -->
+
+  <!-- Modal -->
+  <!-- Button trigger modal -->
+  <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Launch demo modal
+    </button> -->
+
+  <!-- Modal Sitios de Interés Medellín-->
+  <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel3">Sitios de Interés de Medellín</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <!-- Datos que van dentro del modal (mapa, imagen, etc, se pintan acá)-->
+        <div class="modal-body-container-maps-medellin">
+
+          <div id="descSitiosMed"></div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Cerrar
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End modal Sitios de Interés Medellín -->
+
+
+
+  <!-- /////////////////////////////////////////// -->
+
+  <!-- Modal y mapas medellín georeferenciado -->
+  <h1 class="centrarTitulo">Mapa Medellín</h1>
+
+  <div class="contMedellin">
+    <div id="map4"></div>
+  </div>
+
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-primary" id="btnOpenModal4" data-bs-toggle="modal"
+    data-bs-target="#exampleModal4">
+    Launch demo modal
+  </button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel4"></h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body4">
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- FIn Modal y mapas medellín georeferenciado -->
+
+  <!-- ////////////////////////////////////////////////// -->
+
+<!-- Chatbot Caroli -->
+
+<!-- <h2 style="text-align: center; margin-top: 50px;">Estamos para orientarte</h2>
+
+  <div class="centrarBot">
+    <iframe src="https://landbot.site/v3/H-2102624-WSNH02CUQ577M4GN/index.html" style="width: 400px; height: 500px;" title="description"></iframe> 
+  </div> -->
+
+
+
+
+
+
+
+  <!-- BOOTSTRAP CDN -->
+
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+
+  <!-- SCRIPTS -->
+  <script src="./js/main.js" type="module"></script>
+  <script src="js/PuebloRuta.js" type="module"></script>
+  <script src="js/pueblosReferenciados.js" type="module"></script>
+
+  <!-- <script src="js/pueblosReferenciados.js" type="module"></script> -->
+
+
+  <!-- SCRIPTS NUEVOS QUE CREÉ PARA MODULARIZAR TODO CON JSON SERVER -->
+
+  <script type="module" src="apiConnection/API.js"></script>
+  <script type="module" src="app/appPueblos.js"></script>
+  <script type="module" src="app/appSitiosMedellin.js"></script>
+  <script type=" module" src="db/dbPueblos.js"></script>
+  <script type="module" src="db/dbSitiosMedellin.js"></script>
+
+
+  <!-- SCRIPT API GOOGLE MAPS -->
+
+  
+  
+
+</body>
+
+</html>

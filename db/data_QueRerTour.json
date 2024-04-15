@@ -1,0 +1,732 @@
+{
+  "pueblos": [
+    {
+      "id": 1,
+      "nombre": "Amagá",
+      "imagen": "images/imgPueblos/amaga.jpg",
+      "audio": "Historia/Amaga.mp3",
+      "video": "/video/amaga.mp4",
+      "url": "/pueblos/pueblo.html?town=Amagá",
+      "mapaPueblo": {
+        "latitud": 6.0404174,
+        "longitud": -75.7026932
+      },
+      "descripcion": ["<p>Amaga, conocido como Tierra de Mineros, es un municipio cercano a Medellín con una rica historia minera. Destaca por sus minas de carbón,",
+                      "la vieja ferrería y atracciones como el viaducto del Antiguo Tren.<br>",
+                      "Fundado en 1788 por Miguel Ignacio Pérez de la Calle, Amaga se erigió como municipio en 1812. Sus primeros habitantes fueron los indígenas",
+                      " homogáes. También se le conoció como Valle de las Peras y San Fernando Rey de Borbón. Los habitantes son amagacitas.</p>"],
+      "descripcionCaro": "Municipio minero cercano a Medellín, fundado en 1788 y convertido en municipio en 1812. Destaca por minas de carbón y el viaducto del antiguo tren. También conocido como 'Tierra de Mineros' y Valle de las Peras. Los habitantes son Amagacitas.",               
+      "sitiosInteres":[
+        {
+          "id": 1,
+          "lugar": "Parque Principal",
+          "descripcion": ["Inicia tu viaje en el corazón mismo de Amagá, el Parque Principal Emiro Kastos. Este pintoresco oasis urbano no solo es un espacio",
+                          " verde, sino un testimonio vivo de la historia y la identidad de la comunidad. Rodeado de monumentos y esculturas que cuentan historias",
+                          " centenarias, el parque es el escenario perfecto para eventos culturales y encuentros comunitarios. Respira la serenidad de sus jardines",
+                          " y siente la autenticidad que fluye en cada rincón de este emblemático espacio."],
+           "imagen":  "../images/mapaPueblos/imgCarruselMapaPueblos/Amaga/amaga.jpg",
+           "audio": "Amaga/parquePrincipal.mp3",
+           "mapaLugar": {
+            "latitud": 6.0406637,
+            "longitud": -75.7034683
+           },
+           "ubicacion": "Parque principal Amagá Antioquia"
+           
+        },
+        {
+          "id": 2,
+          "lugar": "Casa de la cultura Belisario Betancur",
+          "descripcion":["Sumérgete en el alma creativa de Amagá en la Casa de la Cultura, un espacio dedicado a la preservación y celebración de las expresiones",
+                         " artísticas locales. Exposiciones, talleres y eventos culturales llenan este lugar de vida, convirtiéndolo en el epicentro cultural de la",
+                         " comunidad. Descubre la riqueza de la historia y la creatividad que fluye en cada manifestación cultural."],
+          "imagen": "../images/mapaPueblos/imgCarruselMapaPueblos/Amaga/CasaDeLaCultura.jpg",
+          "audio": "Amaga/casaDeLaCultura.mp3",
+          "mapaLugar":{
+            "latitud": 6.0401786,
+            "longitud": -75.7038947
+          },
+          "ubicacion": "Casa de la Cultura Belisartio Betancur Cuartas Amagá Antioquia"
+        },
+        {
+          "id": 3,
+          "lugar": "Chorro el Salto",
+          "descripcion":["Embárcate en una travesía hacia la naturaleza en su estado más puro en los Chorros El Salto. Aquí, las aguas cristalinas descienden entre",
+                         " rocas, creando un espectáculo visual y sonoro. Pozas naturales te invitan a sumergirte en la frescura del entorno, mientras el sonido",
+                         " relajante de las cascadas te transporta a un refugio natural que redefine la conexión con la tierra."],
+          "imagen": "../images/mapaPueblos/imgCarruselMapaPueblos/Amaga/ChorroElSalto.jpg",
+          "audio": "Amaga/chorroElSalto.mp3",
+          "mapaLugar":{
+            "latitud": 6.0579169,
+            "longitud": -75.6948316
+          },
+          "ubicacion": "Chorros El Salto Amagá Antioquia"
+        },
+        {
+          "id": 4,
+          "lugar": "Ecoparque Minero del Carbón",
+          "descripcion":["Viaja en el tiempo y adéntrate en la historia minera de Amagá en el fascinante Ecoparque Minero del Carbón. Este sitio temático no solo",
+                         " presenta la vida de los mineros, sino que también te invita a explorar túneles subterráneos, experimentando la dureza y la grandeza de",
+                         " esta actividad. Una experiencia educativa y envolvente que arroja luz sobre la importancia de la minería en la evolución de la región."],
+          "imagen": "../images/mapaPueblos/imgCarruselMapaPueblos/Amaga/EcoparqueMinero.jpg",
+          "audio": "Amaga/ecoparqueMineroDelCarbon.mp3",
+          "mapaLugar": {
+            "latitud": 6.0709625,
+            "longitud": -75.6991454
+          },
+          "ubicacion": "Ecoparque Minero del Carbón Amagá Antioquia"
+        },
+        {
+          "id": 5,
+          "lugar": "Viaducto, antigua via del  Ferrocarril",
+          "descripcion":["Explora la imponencia arquitectónica de Amagá al caminar sobre El Viaducto. Esta estructura majestuosa se eleva sobre el río Cauca,",
+                         " ofreciendo vistas panorámicas que capturan la grandeza del paisaje. Las pasarelas de este puente emblemático no solo conectan geografías,",
+                         " sino también épocas, permitiéndote caminar entre el pasado y el presente en un escenario que combina ingeniería y belleza natural."],
+          "imagen": "../images/mapaPueblos/imgCarruselMapaPueblos/Amaga/viaducto.jpg",
+          "audio": "Amaga/viaducto.mp3",
+          "mapaLugar": {
+            "latitud": 5.994363,
+            "longitud": 75.6729282
+          },
+          "ubicacion": "Viaducto Amagá Antioquia"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Andes",
+      "imagen": "images/imgPueblos/andes.jpg",
+      "audio": "Historia/Andes.mp3",
+      "video": "/video/andes.mp4",
+      "url": "/pueblos/pueblo.html?town=Andes",
+      "mapaPueblo": {
+        "latitud": 5.6559828,
+        "longitud": -75.8777244
+      },
+      "descripcion": ["<p>Ubicado en el Suroeste antioqueño, se destaca como un próspero municipio cafetero con un Parque Principal animado que refleja la actividad comercial y la tradición",
+                      " de tertulias. Considerado el centro comercial de la subregión, Andes cuenta con infraestructuras turísticas, finca hoteles, parques ecológicos y opciones de",
+                      " diversión nocturna.<br>",
+                      "La historia de Andes se remonta a la 'Colonización Antioqueña'. Antes de su fundación, los territorios fueron explorados por José María de la Calle y José María Restrepo",
+                      " en 1805 en busca de minas y salados. En 1850, una ordenanza crea la Aldea de Soledad, base para la futura fundación de Andes. En 1852, Pedro Antonio Restrepo Escobar,",
+                      " exiliado tras una revolución conservadora, funda Andes, elevándolo a viceparroquia en 1853.</p>"],
+      "descripcionCaro": "Municipio cafetero en el Suroeste antioqueño, fundado en 1850. Destaca por su Parque Principal y es conocido como 'Capital Comercial del Suroeste'. Su historia se remonta a la 'Colonización Antioqueña'.",
+      "sitiosInteres": [
+        {
+          "id": 1,
+          "lugar": "Parque Principal",
+          "descripcion":["En el corazón de Andes, el Parque Principal Simón Bolívar emerge como un símbolo histórico y social. La estatua imponente del libertador",
+                         " preside este espacio, testigo de encuentros comunitarios, eventos culturales y la esencia misma de la vida local. Los jardines",
+                         " meticulosamente cuidados, las sombreadas áreas de descanso y la arquitectura que rodea el parque crean una atmósfera única que invita",
+                         " a la contemplación y la conexión con la historia viva de Andes."],
+          "imagen": "../images/mapaPueblos/imgCarruselMapaPueblos/Andes/andes.jpg",
+          "audio": "Andes/parquePrincipal.mp3",
+          "mapaLugar":{
+            "latitud": 5.6556088,
+            "longitud": -75.8773324
+          },
+          "ubicacion": "Parque principal Andes Antioquia" 
+        },
+        {
+          "id": 2,
+          "lugar": "Chorros de Tapartó",
+          "descripcion":["El sonido melodioso de las aguas y la frescura de la naturaleza te esperan en los Chorros de Tapartó. Rodeados de exuberante vegetación,",
+                         " estos chorros crean una escena idílica. Sumérgete en las piscinas naturales, relájate en el entorno sereno y permite que la magia de los",
+                         " Chorros de Tapartó te envuelva en una experiencia que renueva cuerpo y espíritu."],
+          "imagen": "../images/mapaPueblos/imgCarruselMapaPueblos/Andes/ChorrosTaparto.jpg",
+          "audio": "Andes/chorrosTaparto.mp3",
+          "mapaLugar": {
+            "latitud": 5.6503995,
+            "longitud": -75.9900571
+          },
+          "ubicacion": "Chorros de Tapartó Andes Antioquia"
+        },
+        {
+          "id": 3,
+          "lugar": "Ecoparque Regional Mario Aramburo",
+          "descripcion":["Para aquellos que buscan sumergirse en la biodiversidad, el Ecoparque Regional Mario Aramburo Restrepo es una joya natural. Senderos",
+                         " interpretativos te guiarán a través de la riqueza de flora y fauna autóctona, proporcionando una experiencia educativa y enriquecedora.",
+                         " Participa en actividades ecoeducativas y descubre la importancia de preservar la biodiversidad en este rincón verde de Andes."],
+          "imagen": "../images/mapaPueblos/imgCarruselMapaPueblos/Andes/EcoparqueRegionalMarioAramburo.jpeg",
+          "audio": "Andes/ecoparqueRegional.mp3",
+          "mapaLugar": {
+            "latitud": 5.6963072,
+            "longitud": -75.8792242
+          },
+          "ubicacion": "Ecoparque Regional Mario Aramburo Restrepo Andes Antioquia"
+        },
+        {
+          "id": 4,
+          "lugar": "Mural Matices Ancestrales",
+          "descripcion":["Las calles de Andes se convierten en un lienzo vivo en el Mural Matices Ancestrales. Este homenaje artístico a la rica herencia cultural",
+                         " de la comunidad cuenta historias a través de colores y formas. Pasea por las calles y permite que la creatividad visual del mural te guíe",
+                         " por un viaje cultural que celebra la diversidad y la identidad de Andes."],
+          "imagen": "../images/mapaPueblos/imgCarruselMapaPueblos/Andes/MuralMaticesAncestrales.jpeg",
+          "audio": "Andes/mural.mp3",
+          "mapaLugar": {
+            "latitud": 5.6543348,
+            "longitud": -75.8785118
+          },
+          "ubicacion": "Mural Matices Ancestrales Andes Antioquia"
+        },
+        {
+          "id": 5,
+          "lugar": "Parque Lineal San Juan La Chaparra",
+          "descripcion":["Para una experiencia donde la naturaleza y la urbanidad convergen, el Parque Lineal San Juan-La Chaparra es un tesoro. Este oasis lineal",
+                         " sigue las orillas del río, ofreciendo senderos sombreados, espacios verdes y rincones de tranquilidad. Pasea junto al río, observa aves",
+                         " locales y siente la serenidad que emana de este enclave verde que teje la naturaleza con la vida urbana."],
+          "imagen": "../images/mapaPueblos/imgCarruselMapaPueblos/Andes/ParqueLinealSanJuanLaChaparra.jpg",
+          "audio": "Andes/parqueLineal.mp3",
+          "mapaLugar": {
+            "latitud": 5.6565475,
+            "longitud": -75.8758922
+          },
+          "ubicacion": "Parque lineal San Juan - La Chaparrala Andes Antioquia"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Jardín",
+      "imagen": "images/imgPueblos/jardin2.webp",
+      "audio": "Historia/Jardin.mp3",
+      "video": "/video/jardin.mp4",
+      "url": "/pueblos/pueblo.html?town=Jardín",
+      "mapaPueblo": {
+        "latitud": 5.596767,
+        "longitud": -75.819361
+      },
+      "descripcion": ["<p>Jardín, fundado en 1864 por Indalecio Pelaes V, es conocido como la Ciudad de los Muchos Cerros. Inicialmente, una hacienda llamada El Jardín",
+                      " dio origen al municipio en 1863, que se convirtió en corregimiento en 1872 y luego en parroquia en 1881. <br>",
+                      "En 1882 fue erigido como municipio por el presidente Luciano Restrepo. Su parque principal, con una iglesia imponente, es un monumento nacional",
+                      " y simboliza la belleza de Antioquia. Jardín es reconocido como el pueblo más bonito de Antioquia y destaca por la producción de café, plátano,",
+                      " ganadería y madera.</p>"],
+      "descripcionCaro": "Fundado en 1864, es la 'Ciudad de las Colinas'. Establecido como municipio en 1882, destaca por su Parque Principal y es reconocido como el 'Pueblo más Hermoso de Antioquia' por su producción de café, plátanos, ganado y madera.",
+      "sitiosInteres":[
+        {
+          "id": 1,
+          "lugar": "Parque Principal",
+          "descripcion":["En el corazón de Jardín, el Parque Principal te da la bienvenida con su encanto colonial y su atmósfera vibrante. Rodeado de arquitectura",
+                         " histórica, este oasis verde es el punto de encuentro perfecto para locales y visitantes. Pasea entre sus senderos sombreados, admira la ",
+                         "imponente iglesia y disfruta de la autenticidad que define a Jardín. Con eventos culturales y comercios locales, el Parque Principal es el",
+                         " alma de la ciudad, invitándote a sumergirte en su ambiente acogedor y auténtico."],
+          "imagen": "../images/mapaPueblos/imgCarruselMapaPueblos/Jardin/jardin2.jpg",
+          "audio": "Jardin/parquePrincipal.mp3",
+          "mapaLugar":{
+            "latitud": 5.5991573,
+            "longitud": -75.8195869
+          },
+          "ubicacion": "Parque principal Jardín Antioquia"
+        },
+        {
+          "id": 2,
+          "lugar": "Cueva el Esplendor",
+          "descripcion":["Descubre las maravillas ocultas bajo tierra en la Cueva El Esplendor. Con sus impresionantes formaciones de estalactitas y estalagmitas,",
+                         " esta cueva te sumergirá en un mundo subterráneo lleno de asombro y misterio. Guiados por expertos locales, explorarás pasajes iluminados",
+                         " por la tenue luz de las cavernas, creando recuerdos inolvidables de tu visita a Jardín."],
+          "imagen": "../images/mapaPueblos/imgCarruselMapaPueblos/Jardin/CuevaEsplendor.jpg",
+          "audio": "Jardin/CuevaElEsplendor.mp3",
+          "mapaLugar": {
+            "latitud": 5.64254,
+            "longitud": -75.8126727
+          },
+          "ubicacion": "Cueva del esplendor Jardín Antioquia"
+        },
+        {
+          "id": 3,
+          "lugar": "La garrucha",
+          "descripcion":["Revive la nostalgia del pasado con un viaje en la Garrucha, un sistema de transporte aéreo que te llevará a través del aire, ofreciéndote",
+                         " vistas panorámicas de la ciudad y sus alrededores. Embrárcate en un viaje que combina la emoción de la aventura con la historia de Jardín,",
+                         " permitiéndote apreciar la belleza del entorno desde una perspectiva única y emocionante."],
+          "imagen": "../images/mapaPueblos/imgCarruselMapaPueblos/Jardin/laGarrucha.jpg",
+          "audio": "Jardin/Garrucha.mp3",
+          "mapaLugar": {
+            "latitud": 5.5941468,
+            "longitud": -75.8190479
+          },
+          "ubicacion": "La Garrucha Jardín Antioquia"
+        },
+        {
+          "id": 4,
+          "lugar": "Mirador de Cristo Rey",
+          "descripcion":["Eleva tu experiencia en Jardín ascendiendo al Mirador de Cristo Rey, un lugar sagrado que ofrece vistas panorámicas inigualables. Desde esta",
+                         " altura, contempla la majestuosidad de los paisajes antioqueños que se extienden ante ti. Inspirado en la fe y la naturaleza, este mirador te",
+                         " invita a conectarte con lo divino mientras te sumerges en la serenidad que solo Jardín puede brindar."],
+          "imagen": "../images/mapaPueblos/imgCarruselMapaPueblos/Jardin/MiradorCristoRey.jpg",
+          "audio": "Jardin/MiradordeCristoRey.mp3",
+          "mapaLugar": {
+            "latitud": 5.6049413,
+            "longitud": -75.8178943
+          },
+          "ubicacion": "Mirador Cristo Rey Jardín Antioquia"
+        },
+        {
+          "id": 5,
+          "lugar": "Tour de las abejas",
+          "descripcion":["Eleva tu experiencia en Jardín ascendiendo al Mirador de Cristo Rey, un lugar sagrado que ofrece vistas panorámicas inigualables. Desde esta",
+                         " altura, contempla la majestuosidad de los paisajes antioqueños que se extienden ante ti. Inspirado en la fe y la naturaleza, este mirador te",
+                         " invita a conectarte con lo divino mientras te sumerges en la serenidad que solo Jardín puede brindar."],
+          "imagen": "../images/mapaPueblos/imgCarruselMapaPueblos/Jardin/TourAbejas.jpg",
+          "audio": "Jardin/TourdelasAbejas.mp3",
+          "mapaLugar": {
+            "latitud": 5.6141955,
+            "longitud": -75.8487333
+          },
+          "ubicacion": "Tour de las abejas Jardín Antioquia"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Jericó",
+      "imagen": "images/imgPueblos/jerico.jpg",
+      "audio": "Historia/Jerico.mp3",
+      "video": "/video/jerico.mp4",
+      "url": "/pueblos/pueblo.html?town=Jericó",
+      "mapaPueblo": {
+        "latitud": 5.7913242,
+        "longitud": -75.7860049
+      },
+      "descripcion": ["<p>Jericó, fundado en 1851, pasó por varios nombres como Aldea de Piedras y Felicina, antes de convertirse en el Distrito Parroquial de Jericó",
+                      " en 1853. En 1857 se erige la parroquia, marcando el inicio de un rápido progreso con la fundación de escuelas y caminos.<br>", 
+                      "Destaca por sus atractivos religiosos, naturales y culturales, como la Casa de la Madre Laura y el Museo de Arte Religioso. Fundado por Santiago",
+                      " Santamaría Bermudes de Castro, Jericó también se conoce como El Reino del Carriel y La Atenaz del Sur Oeste.</p>"],
+      "descripcionCaro": "Fundado en 1851, es un pueblo con rica historia religiosa y cultural. Conocido como ‘El Reino del Carriel’ y ‘La Atenas del Suroeste’, destaca por la Casa de la Madre Laura y el Parque Principal, inaugurado en 1953 con la Catedral.",
+
+      "sitiosInteres": [
+        {
+          "id": 1,
+          "lugar": "Parque Principal",
+          "descripcion":["Adéntrate en la esencia misma de Jericó mientras te sumerges en la vida local en nuestro emblemático Parque Principal. Rodeado de jardines",
+                         " meticulosamente cuidados, este oasis de tranquilidad es el escenario perfecto para eventos culturales, encuentros comunitarios y momentos",
+                         " de serenidad. Las bancas bajo la sombra de árboles centenarios y la arquitectura que cuenta historias te invitan a vivir y respirar la",
+                         " autenticidad que define a Jericó."],
+          "imagen": "../images/mapaPueblos/imgCarruselMapaPueblos/Jerico/jerico.jpg",
+          "audio": "Jerico/parquePrincipal.mp3",
+          "mapaLugar":{
+            "latitud": 5.7912138,
+            "longitud": -75.7861501
+          },
+          "ubicacion": "Parque principal Jericó Antioquia"
+        },
+        {
+          "id": 2,
+          "lugar": "Casa Natal Madre Laura",
+          "descripcion":["Sumérgete en la espiritualidad y la devoción en la Casa Natal de Madre Laura, un lugar que rinde homenaje a la primera santa colombiana.",
+                         " Explora los espacios que vieron crecer a Madre Laura y que preservan su legado espiritual. Este sitio sagrado es una invitación a la reflexión,",
+                         " la paz interior y la conexión con la espiritualidad que ha marcado la historia de Jericó."],
+          "imagen": "../images/mapaPueblos/imgCarruselMapaPueblos/Jerico/CasaNatalMadreLaura.jpg",
+          "audio": "Jerico/casaNatal.mp3",
+          "mapaLugar": {
+            "latitud": 5.791484,
+            "longitud": -75.7876272
+          },
+          "ubicacion": "Casa Natal Madre Laura Jericó Antioquia"
+        },
+        {
+          "id": 3,
+          "lugar": "Mirador Cristo Rey",
+          "descripcion":["Eleva tus sentidos y tu perspectiva en el Mirador de Cristo Rey, un lugar que no solo ofrece vistas panorámicas impresionantes, sino que también",
+                         " invita a la reflexión y la conexión espiritual. Contempla la majestuosidad de Jericó y sus alrededores desde este punto sagrado. El Mirador de",
+                         " Cristo Rey es más que un simple observatorio; es un lugar donde la espiritualidad se fusiona con la naturaleza, creando una experiencia única y",
+                         " trascendental."],
+          "imagen": "../images/mapaPueblos/imgCarruselMapaPueblos/Jerico/MiradorCristoRey.jpg",
+          "audio": "Jerico/mirador.mp3",
+          "mapaLugar": {
+            "latitud": 5.7941469,
+            "longitud": 75.7839575
+          },
+          "ubicacion": "Cristo Redentor Jericó Antioquia"
+        },
+        {
+          "id": 4,
+          "lugar": "Museo Maja",
+          "descripcion":["Viaja en el tiempo en el Museo Maja, un espacio donde las raíces históricas de Jericó se despliegan ante tus ojos. Artefactos cuidadosamente",
+                         " preservados, fotografías evocadoras y relatos fascinantes narran la evolución cultural de la región. El Museo Maja es una puerta abierta al",
+                         " pasado, ofreciéndote una comprensión profunda de la identidad única que ha definido a Jericó a lo largo de los años"],
+          "imagen": "../images/mapaPueblos/imgCarruselMapaPueblos/Jerico/MuseoMaja.png",
+          "audio": "Jerico/museoMaja.mp3",
+          "mapaLugar": {
+            "latitud": 5.7903738,
+            "longitud": -75.7859614
+          },
+          "ubicacion": "Museo Maja Jericó Antioquia"
+        },
+        {
+          "id": 5,
+          "lugar": "Parque Ecológico las Nubes",
+          "descripcion":["Explora la naturaleza exuberante del Parque Natural de las Nubes, un tesoro de biodiversidad que te sumerge en la magia de Jericó.",
+                         " Senderos serpenteantes te llevan a través de bosques frondosos, revelando la riqueza de la flora y fauna locales. Cada paso es una invitación",
+                         " a la contemplación y al asombro frente a la belleza natural que caracteriza a Jericó."],
+          "imagen": "../images/mapaPueblos/imgCarruselMapaPueblos/Jerico/ParqueLasNubes.jpg",
+          "audio": "Jerico/parqueLasNubes.mp3",
+          "mapaLugar": {
+            "latitud": 5.7979968,
+            "longitud": -75.793999
+          },
+          "ubicacion": "Reserva Natural Las Nubes Jericó Antioquia"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "La Ceja",
+      "imagen": "images/imgPueblos/laCeja.jpeg",
+      "audio": "Historia/LaCeja.mp3",
+      "video": "/video/LaCeja.mp4",
+      "url": "/pueblos/pueblo.html?town=La+Ceja",
+      "mapaPueblo": {
+        "latitud": 6.0311182,
+        "longitud": -75.4317638
+      },
+      "descripcion": ["<p>Conocida como 'Pueblito en Flor', tiene una rica historia que se remonta a la presencia de los indígenas Tahamíes en el siglo XVI. Descubierto por Álvaro de Mendoza",
+                      " en 1541, fue inicialmente llamado Valle de Santamaría, hoy conocido como Valle de La Ceja del Tambo. <br>",
+                      "En el siglo XVII, pobladores de Santa Fe de Antioquia y del Valle de Aburrá migraron hacia el Oriente Antioqueño en busca de tierras fértiles. En 1789, la localidad fue",
+                      " elevada a Pedanía y posteriormente, en 1855, se convirtió en municipio. Destaca por su clima frío y la tradicional producción de flores.<br>",
+                      "Fundada en 1789, debe su nombre a la similitud de las montañas que la rodean con una ceja, y 'Tambo' porque en el pasado se usaban tambos como alojamientos para viajeros. También",
+                      " se le conoció como La Ceja de Rionegro, La Ceja de Arma y simplemente La Ceja. Sus habitantes son Cejeños y es reconocida como el 'Municipio mejor Trazado' y 'El Vaticanito',",
+                      " además de ser la 'Capital Regional de las Flores'.</p>"],
+      "descripcionCaro": "Fundada en 1789, es conocida como 'Pueblito en Flor'. Convertida en municipio en 1855, destaca por su clima frío y producción de flores, siendo la 'Capital Regional de las Flores'.",
+      "sitiosInteres": [
+        {
+          "id":1,
+          "lugar": "Parque Principal",
+          "descripcion":["Comienza tu viaje en el corazón de La Ceja, en su vibrante Parque Principal. Este icónico espacio no solo es el pulmón verde del municipio,",
+                         " sino también el punto de encuentro para la comunidad. Rodeado de árboles centenarios y esculturas que narran la historia local, el Parque",
+                         " Principal es un testimonio vivo de la identidad y la vitalidad de La Ceja. Disfruta de eventos culturales, paseos serenos y momentos de",
+                         " autenticidad en este emblemático parque."],
+          "imagen": "../images/mapaPueblos/imgCarruselMapaPueblos/La Ceja/laCeja.jpeg",
+          "audio": "LaCeja/parquePrincipal.mp3",
+          "mapaLugar":{
+            "latitud": 6.0312011,
+            "longitud": -75.431908 
+          },
+          "ubicacion": "Parque principal La Ceja Antioquia"
+        },
+        {
+          "id": 2,
+          "lugar": "Salto del Buey- Ecoparque los Saltos",
+          "descripcion":["Embárcate en una aventura natural en el Ecoparque Los Saltos, donde la exuberante vegetación y la frescura del agua te invitan a explorar.",
+                         " Cascadas que se deslizan entre las rocas crean un espectáculo visual y sonoro que te conecta con la naturaleza en su estado más puro.",
+                         " Sumérgete en pozas naturales, camina por senderos serpenteantes y deja que la magia de Los Saltos te envuelva en una experiencia rejuvenecedora."],
+          "imagen": "../images/mapaPueblos/imgCarruselMapaPueblos/La Ceja/EcoparqueLosSaltos.jpg",
+          "audio": "LaCeja/saltoDelBuey.mp3",
+          "mapaLugar": {
+            "latitud": 5.9310147,
+            "longitud": -75.4497695
+          },
+          "ubicacion": "Ecoparque los Saltos La Ceja Antioquia"
+        },
+        {
+          "id": 3,
+          "lugar": "Finca hotel Los Lagos",
+          "descripcion":["Sumérgete en la comodidad y la belleza rural en la Finca Hotel Los Lagos. Rodeada de paisajes impresionantes, esta finca hotel ofrece una",
+                         " experiencia de hospedaje única. Desde cómodas habitaciones hasta instalaciones para actividades al aire libre, Los Lagos es un escape perfecto",
+                         " para aquellos que buscan tranquilidad y contacto directo con la naturaleza."],
+          "imagen": "../images/mapaPueblos/imgCarruselMapaPueblos/La Ceja/FincaHotelLosLagos.jpg",
+          "audio": "LaCeja/fincaHotel.mp3",
+          "mapaLugar": {
+            "latitud": 6.0024207,
+            "longitud":-75.4138355
+          },
+          "ubicacion": "Finca Hotel los Lagos La Ceja Antioquia"
+        },
+        {
+          "id": 4,
+          "lugar": "Jardines de San Nicolas",
+          "descripcion":["Pasea entre la serenidad y la belleza en los Jardines de San Nicolás, un rincón que fusiona naturaleza y arquitectura con gracia. Este espacio",
+                         " verde ofrece jardines cuidados, fuentes relajantes y una atmosfera tranquila. Disfruta de momentos de contemplación, conecta con la calma que",
+                         " ofrece la naturaleza y deja que los Jardines de San Nicolás te envuelvan en un oasis de paz."],
+          "imagen": "../images/mapaPueblos/imgCarruselMapaPueblos/La Ceja/JardinesDeSanNicolas.jpg",
+          "audio": "LaCeja/jardinesSanNicolas.mp3",
+          "mapaLugar": {
+            "latitud": 6.0539393,
+            "longitud": -75.4223973
+          },
+          "ubicacion": "Jardines de SAn Nicolas La Ceja Antioquia"
+        },
+        {
+          "id": 5,
+          "lugar": "Plaza de Mercado",
+          "descripcion":["Explora los sabores y colores de La Ceja en su animada Plaza de Mercado. Aquí, la tradición y la gastronomía local se entrelazan en un festín",
+                         " para los sentidos. Desde productos frescos hasta artesanías, la Plaza de Mercado es un reflejo de la vida cotidiana y el espíritu emprendedor",
+                         " de La Ceja. Sumérgete en la autenticidad del mercado y descubre la diversidad de productos que conforman el alma de esta comunidad."],
+          "imagen": "../images/mapaPueblos/imgCarruselMapaPueblos/La Ceja/PlazaMercado.jpg",
+          "audio": "LaCeja/plazaMercado.mp3",
+          "mapaLugar": {
+            "latitud": 6.0218594,
+            "longitud": -75.4320242
+          },
+          "ubicacion": "Plaza de Mercado La Ceja Antioquia"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "nombre": "Támesis",
+      "imagen": "images/imgPueblos/tamesis2.jpg",
+      "audio": "Historia/Tamesis.mp3",
+      "video": "/video/tamesis.mp4",
+      "url": "/pueblos/pueblo.html?town=Támesis",
+      "mapaPueblo": {
+        "latitud": 5.6632863,
+        "longitud": -75.7122541
+      },
+      "descripcion": ["<p>conocido como 'Tierra de Siempre Volver', es un pueblo cafetero en el Suroeste. Fundado en 1858 por Rafaela Gómez Trujillo y Pedro Orozco Ocampo, con aprobación",
+                      " para elevarlo a distrito en 1864. Su nombre se inspira en el río Támesis de Londres, comparándolo con el río San Antonio de la región. También llamado San Antonio",
+                      " de Támesis, destaca por sus petroglifos, un SPA para turistas, cascadas y cerros miradores. En 1888, se estableció una línea telegráfica con Jericó, y en 1913",
+                      " cedieron aguas para una planta eléctrica. Sus habitantes son Tamesinos.</p>"],
+      "descripcionCaro": "Pueblo cafetero en el Suroeste, fundado en 1858. Inspirado en el río Támesis de Londres, destaca por petroglifos, SPA, cascadas y cerros miradores. En 1888, estableció una línea telegráfica con Jericó, y en 1913 cedió aguas para una planta eléctrica. Sus habitantes son Tamesinos.",
+      "sitiosInteres": [
+        {
+          "id": 1,
+          "lugar": "Parque Principal",
+          "descripcion":["Inicia tu experiencia en Támesis sumergiéndote en la vitalidad de su Parque Principal. Este pulmón verde no solo es un oasis en el corazón de la",
+                         " ciudad, sino también un epicentro de la vida comunitaria. Con árboles frondosos, esculturas que cuentan historias y bancas que invitan a la",
+                         " contemplación, el Parque Principal es un lugar donde la autenticidad de Támesis se despliega en su máxima expresión. Participa en eventos",
+                         " culturales, comparte momentos de alegría con los lugareños o simplemente disfruta de la serenidad que ofrece este espacio icónico."],
+          "imagen": "../images/mapaPueblos/imgCarruselMapaPueblos/Tamesis/tamesis2.jpg",
+          "audio": "Tamesis/parquePrincipal.mp3",
+          "mapaLugar":{
+            "latitud": 5.6626095,
+            "longitud": -75.712741
+          },
+          "ubicacion": "Parque principal Támesis Antioquia"
+        },
+        {
+          "id": 2,
+          "lugar": "Balneario y zona de Camping Rio Frio",
+          "descripcion":["Para una experiencia refrescante en medio de la naturaleza, dirígete al Balneario y Zona de Camping Río Frío. Las aguas cristalinas del río",
+                         " te invitan a sumergirte en la frescura natural, mientras que las áreas de camping te brindan la oportunidad de pasar la noche bajo un manto",
+                         " estrellado. Ya sea disfrutando del sol en las playas del río o acampando en la tranquilidad del entorno, esta joya natural es un regalo para los",
+                         " amantes de la vida al aire libre."],
+          "imagen": "../images/mapaPueblos/imgCarruselMapaPueblos/Tamesis/BalnearioYZonaCampingRioFrio.jpg",
+          "audio": "Tamesis/balneario.mp3",
+          "mapaLugar": {
+            "latitud": 5.7199226,
+            "longitud": -75.7503613
+          },
+          "ubicacion": "Balneario y zona de camping Rio Frio Támesis Antioquia"
+        },
+        {
+          "id": 3,
+          "lugar": "Jardín Botánico",
+          "descripcion":["Explora la diversidad botánica de Támesis en el Jardín Botánico Municipal. Este rincón verde es un paraíso para los amantes de las plantas,",
+                         " con senderos que serpentean entre una amplia variedad de especies locales. Sumérgete en la contemplación de la naturaleza, aprende sobre la",
+                         " flora autóctona y deja que la tranquilidad del jardín te envuelva en una experiencia única."],
+          "imagen": "../images/mapaPueblos/imgCarruselMapaPueblos/Tamesis/JardinBotanico.jpg",
+          "audio": "Tamesis/jardinBotanico.mp3",
+          "mapaLugar": {
+            "latitud": 5.667894,
+            "longitud": -75.7173881
+          },
+          "ubicacion": "Jardín Botánico Municipal Támesis Antioquia"
+        },
+        {
+          "id": 4,
+          "lugar": "Museo Arqueológico Cartama",
+          "descripcion":["Sumérgete en las raíces históricas de Támesis en el Museo Arqueológico Cartama. Este tesoro cultural alberga artefactos arqueológicos que",
+                         " cuentan la historia de las civilizaciones que habitaron la región. Desde herramientas antiguas hasta piezas ceremoniales, cada exhibición",
+                         " es una ventana a las épocas pasadas que han dejado una huella indeleble en la identidad de Támesis."],
+          "imagen": "../images/mapaPueblos/imgCarruselMapaPueblos/Tamesis/MuseoArqueológicoCartama.jpg",
+          "audio": "Tamesis/museoArqueologico.mp3",
+          "mapaLugar": {
+            "latitud": 5.6643837,
+            "longitud": -75.7137376
+          },
+          "ubicacion": "Museo arqueológico Támesis Antioquia"
+        },
+        {
+          "id": 5,
+          "lugar": "Truchera Santa Ana",
+          "descripcion":["Deléitate con una experiencia culinaria y natural en la Truchera Santa Ana. Más que una simple truchera, este lugar te invita a participar",
+                         " en la pesca de truchas frescas y luego disfrutarlas en un entorno encantador. Rodeado de paisajes pintorescos, la Truchera Santa Ana ofrece",
+                         " no solo un festín para el paladar, sino también una conexión auténtica con la vida rural de Támesis."],
+          "imagen": "../images/mapaPueblos/imgCarruselMapaPueblos/Tamesis/TrucheraSantaAna.jpg",
+          "audio": "Tamesis/truchera.mp3",
+          "mapaLugar": {
+            "latitud": 5.664935,
+            "longitud": -75.718695
+          },
+          "ubicacion": "Truchera Santa Ana Támesis Antioquia"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "nombre": "Venecia",
+      "descripcion": ["<p>municipio ecoturístico en el Suroeste antioqueño, destaca por el Cerro Tusa, la pirámide natural más alta del mundo. Ofrece actividades como equinoterapia, senderos",
+                      " indígenas y fincas cafeteras. Su historia incluye la presencia de indígenas Zenufanáes y la llegada de colonos en 1860, dedicándose al café. Fundado en 1898, Venecia",
+                      " se erige como municipio en 1909 con la Parroquia de San José. Su nombre se debe a Venecia, Italia, recordando el suelo anegado por lagunas. Fundadores: Tomás Chaverra",
+                      " y Custodia Galeano. Gentilicio: Venecianos. Apelativos: Antejardín del Suroeste, Linda y Turística.</p>"],
+      "descripcionCaro": "Municipio ecoturístico fundado en 1898 en el Suroeste antioqueño, conocido por el Cerro Tusa y actividades como equinoterapia. Su historia incluye indígenas Zenufanáes y colonos en 1860 dedicados al café. Fundadores: Tomás Chaverra y Custodia Galeano. Gentilicio: Venecianos.",
+      "imagen": "images/imgPueblos/venecia.jpg",
+      "audio": "Historia/Venecia.mp3",
+      "video": "/video/venecia.mp4",
+      "url": "/pueblos/pueblo.html?town=Venecia",
+      "mapaPueblo": {
+        "latitud": 5.9631723,
+        "longitud": -75.7342431
+      },
+      "sitiosInteres": [
+        {
+          "id": 1,
+          "lugar": "Parque Principal",
+          "descripcion":["En el corazón palpitante de Venecia se encuentra el Parque Principal, un rincón donde la comunidad se entrelaza con la naturaleza en una danza",
+                         " armoniosa. Los senderos sombreados, los jardines cuidados y la arquitectura local crean un ambiente acogedor y vibrante. Este oasis de",
+                         " tranquilidad no solo es un lugar para pasear y disfrutar de eventos culturales, sino también un testimonio viviente de la autenticidad y el",
+                         " espíritu comunitario que define a Venecia."],
+          "imagen": "../images/mapaPueblos/imgCarruselMapaPueblos/Venecia/venecia.jpg",
+          "audio": "Venecia/parquePrincipal.mp3",
+          "mapaLugar":{
+            "latitud": 5.9632686,
+            "longitud": -75.7342906
+          },
+          "ubicacion": "Parque Principal de Venecia, Antioquia"
+        },
+        {
+          "id": 2,
+          "lugar": "Calle de los Artistas",
+          "descripcion":["Sumérgete en el encanto de la Calle de los Artistas en Venecia, Antioquia. Este pintoresco rincón es el lugar perfecto",
+                         " donde el arte y la cultura convergen. Déjate seducir por las coloridas fachadas que albergan talleres de artistas",
+                         " locales, donde podrás presenciar cómo cobran vida las creaciones más inspiradoras. Descubre la magia de cada trazo y",
+                         " la pasión que impulsa a estos talentosos creadores. Con sus calles empedradas y su ambiente bohemio, la Calle de los",
+                         " Artistas te invita a explorar, a admirar y a sumergirte en un universo donde cada esquina es una obra de arte"],
+          "imagen": "../images/mapaPueblos/imgCarruselMapaPueblos/Venecia/CalleDeLosArtistas.png",
+          "audio": "Venecia/calleArtistas.mp3",
+          "mapaLugar": {
+            "latitud": 5.9628754,
+            "longitud": -75.7352463
+          },
+          "ubicacion": "Calle de los Artistas Venecia Antioquia"
+        },
+        {
+          "id": 3,
+          "lugar": "Casa de la Cultura Jaime Alberto Zapata",
+          "descripcion":["Descubre el corazón cultural de Venecia, Antioquia en la Casa de la Cultura Jaime Alberto Zapata! Sumérgete en un",
+                         " mundo de expresión artística y aprendizaje en este icónico espacio. Con una amplia gama de actividades culturales,",
+                         " desde talleres de arte y música hasta exposiciones y eventos comunitarios, la Casa de la Cultura es el lugar donde la",
+                         " creatividad florece y las tradiciones se celebran. Ya seas un aficionado o un experto en arte y cultura, aquí",
+                         " encontrarás algo que te inspire"],
+          "imagen": "../images/mapaPueblos/imgCarruselMapaPueblos/Venecia/CasaDeLaCultura.jpg",
+          "audio": "Venecia/casaCultura.mp3",
+          "mapaLugar": {
+            "latitud": 5.9637852,
+            "longitud": -75.7357318
+          },
+          "ubicacion": "Casa de la Cultura Venecia Antioquia"
+        },
+        {
+          "id": 4,
+          "lugar": "Cerro Tusa",
+          "descripcion":["Descubre la majestuosidad natural del Cerro Tusa en Venecia, Antioquia Conocido como el cerro más grande del mundo",
+                         " en forma de pirámide, esta maravilla geológica te espera para una aventura inolvidable. Con su imponente altura y sus",
+                         " senderos escarpados, el Cerro Tusa ofrece a los amantes de la naturaleza y los excursionistas una experiencia única.",
+                         " Desde la cima, serás testigo de vistas panorámicas que te dejarán sin aliento, con paisajes que se extienden hasta",
+                         " donde alcanza la vista"],
+          "imagen": "../images/mapaPueblos/imgCarruselMapaPueblos/Venecia/CerraTusa.jpg",
+          "audio": "Venecia/cerroTusa.mp3",
+          "mapaLugar": {
+            "latitud": 5.9666667,
+            "longitud": -75.7853703
+          },
+          "ubicacion": "Cerro Tusa Venecia Antioquia"
+        },
+        {
+          "id": 5,
+          "lugar": "Museo Cerro Tusa Zenufaná",
+          "descripcion":["Sumérgete en un viaje fascinante a través de las culturas precolombinas que habitaron estas tierras. En este",
+                        " museo único, ubicado a los pies del imponente Cerro Tusa, descubrirás artefactos, arte y relatos que narran la",
+                        " vida y las tradiciones de los antiguos habitantes Zenufaná. Desde cerámicas hasta herramientas de piedra, cada",
+                        " objeto cuenta una historia cautivadora. Además, podrás disfrutar de exhibiciones interactivas y aprender sobre",
+                        " la importancia cultural y arqueológica de esta región. ¡Ven y sumérgete en el pasado en el Museo Cerro Tusa",
+                        " Zenufaná, una experiencia enriquecedora que te conectará con las raíces de Colombia!"],
+          "imagen": "../images/mapaPueblos/imgCarruselMapaPueblos/Venecia/MuseoCerroTusaZenefana.jpg",
+          "audio": "Venecia/museo.mp3",
+          "mapaLugar": {
+            "latitud": 5.9627251,
+            "longitud": -75.7344435
+          },
+          "ubicacion": "Museo Cerro Tusa Zenufaná Venecia Antioquia"
+        }
+      ]
+    }
+  ],
+  "sitiosInteresMed": [
+    {
+      "id": 1,
+      "nombre": "Comuna 13 (Graffitour - Escaleras eléctricas)",
+      "imagen": "images/imgSitiosIntMed/comuna.jpg",
+      "videoSitioMed": "https://www.youtube.com/embed/lKawu8TcRtE?si=zyhnWhx7v8I3RUjs",
+      "descripcion": "La Comuna 13, antes afectada por violencia, se ha transformado con escaleras eléctricas y arte callejero. Ahora, es un ejemplo de revitalización comunitaria y esperanza."
+    },
+    {
+      "id": 2,
+      "nombre": "Jardín Botánico",
+      "imagen": "images/imgSitiosIntMed/jardinBotanico.webp",
+      "videoSitioMed": "https://www.youtube.com/embed/Nnc_FQ7kjDk?si=tyey17jo84_xM3MS",
+      "descripcion": "El Jardín Botánico Joaquín Antonio Uribe, atractivo turístico regional en Colombia, destaca por el Orquideorama y su rica flora con más de 1000 especies. Es un referente en la conservación de colecciones, especialmente de orquídeas."
+    },
+    {
+      "id": 3,
+      "nombre": "Museo Casa de la Memoria",
+      "imagen": "images/imgSitiosIntMed/museoCasaMemoria.jpg",
+      "videoSitioMed": "https://www.youtube.com/embed/E8eJuWQ1f1M?si=y0CvjvzUQfPJc3xC",
+      "descripcion": "La Casa de la Memoria en Medellín, inaugurada en 2012, honra a las víctimas del conflicto armado mediante exposiciones y actividades para generar conciencia y promover la reconciliación en Colombia."
+    },
+    {
+      "id": 4,
+      "nombre": "Museo El Castillo",
+      "imagen": "images/imgSitiosIntMed/museoElCastillo2.jpg",
+      "videoSitioMed": "https://www.youtube.com/embed/sSnXgTDBHOg?si=paLtqXvHJUsJzeXe",
+      "descripcion": "El Museo El Castillo en Medellín, construido en estilo gótico medieval desde 1930, destaca por su colección de arte y antigüedades. Donado como museo en 1971, exhibe porcelana, cristal, vitrales, pinturas y esculturas en catorce salas, con exposiciones temporales en la Sala de Arte. También ofrece una sala de conciertos y un centro de formación artística."
+    },
+    {
+      "id": 5,
+      "nombre": "Parque Arví",
+      "imagen": "images/imgSitiosIntMed/parqueArvi.jpg",
+      "videoSitioMed": "https://www.youtube.com/embed/VN96d0E4DsY?si=RDivdRJaFPLw2muX",
+      "descripcion": "El Parque Arví, en las afueras de Medellín, nació en 2002 para conservar la biodiversidad y ofrecer un espacio natural. Inaugurado en 2007, abarca 16,000 hectáreas, promoviendo la conservación y equilibrio entre la naturaleza y la ciudad."
+    },
+    {
+      "id": 6,
+      "nombre": "Parque Botero",
+      "imagen": "images/imgSitiosIntMed/parqueBotero.jpg",
+      "videoSitioMed": "https://www.youtube.com/embed/sozRhkDYyxA?si=fIJN3Bj_sqBu7JG7",
+      "descripcion": "La Plaza Botero en el Parque Berrío de Medellín exhibe 23 monumentales esculturas de bronce donadas por Fernando Botero en 2002, destacando su estilo voluminoso. El Museo de Antioquia, en el mismo parque, presenta más de 100 obras del maestro y 17 salas con exposiciones permanentes que incluyen arte prehispánico, republicano y contemporáneo."
+    },
+    {
+      "id": 7,
+      "nombre": "Parque de la Conservación (Antes Zoológico de Santa Fé)",
+      "imagen": "images/imgSitiosIntMed/parqueDeLaConservacion1.jpg",
+      "videoSitioMed": "https://www.youtube.com/embed/DgYERKwtJ9g?si=UCEUdZ1oCz23Nc_t",
+      "descripcion": "El Parque de la Conservación en Medellín, antes Zoológico de Santa Fé, promueve la conservación ética de la fauna con enfoque educativo desde 1960. Participa en programas de conservación y destaca la importancia de preservar hábitats naturales."
+    },
+    {
+      "id": 8,
+      "nombre": "Parque Explora",
+      "imagen": "images/imgSitiosIntMed/parqueExplora.jpg",
+      "videoSitioMed": "https://www.youtube.com/embed/IWr6MSUGgqg?si=usdzamQw6MWGRpWs",
+      "descripcion": "El Parque Explora en Medellín es un museo interactivo con 'cajas' rojas centrales, acuario y planetario. Destaca por sus experiencias educativas y entretenidas, promoviendo el turismo y conciencia ambiental con un acuario enfocado en la Amazonía y más de 400 especies colombianas."
+    },
+    {
+      "id": 9,
+      "nombre": "Parque Pies Descalzos.",
+      "imagen": "images/imgSitiosIntMed/parquePiesDescalzos.jpg",
+      "videoSitioMed": "https://www.youtube.com/embed/61j0Y5iYa3A?si=IFTYEzagyMawp84d",
+      "descripcion": "El Parque Pies Descalzos en El Poblado, Medellín, destaca por su diseño innovador que invita a caminar descalzo sobre diversas texturas naturales. Ofrece áreas verdes, fuentes y espacios culturales para promover el bienestar en la ciudad."
+    },
+    {
+      "id": 10,
+      "nombre": "Planetario",
+      "imagen": "images/imgSitiosIntMed/planetario.jpg",
+      "videoSitioMed": "https://www.youtube.com/embed/oFirwx02b1Q?si=8YT6emtjvpzNoibM",
+      "descripcion": "El Planetario de Medellín divulga la astronomía mediante proyecciones multimedia en una cúpula especializada. Ofrece experiencias educativas, permite explorar el cosmos y organiza eventos para fomentar el interés público en la astronomía."
+    },
+    {
+      "id": 11,
+      "nombre": "Pueblito Paisa (Cerro Nutibara)",
+      "imagen": "images/imgSitiosIntMed/pueblitoPaisa1.jpg",
+      "videoSitioMed": "https://www.youtube.com/embed/yKeCE2fNBEs?si=PeRrQLUvyfbi8btO",
+      "descripcion": "El Pueblito Paisa de Medellín, en el Cerro Nutibara, fusiona tradición antioqueña con vista panorámica. Inaugurado en 1978, recrea la arquitectura de pueblo tradicional y destaca por la 'bandeja paisa'. Construido con elementos del antiguo pueblo El Peñol, remodelado entre 2019 y 2020."
+    }
+  ]
+}

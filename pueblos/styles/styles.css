@@ -1,0 +1,709 @@
+/* Hoja de estilos QueRerTour */
+
+.navegacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background: linear-gradient(to right, rgb(156, 15, 156), rgb(2, 75, 246));  */
+    background: linear-gradient(to right, rgba(25, 10, 113, 1) 0%, 12.895256916996049%, rgba(33, 129, 231, 1) 25.790513833992097%, 36.709486166007906%, rgba(123, 48, 229, 1) 47.62845849802372%, 60.37549407114625%, rgba(141, 26, 171, 1) 73.12252964426878%);
+    height: 100px; 
+}
+
+.navegacion2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 27px;
+    margin-right: 80px;
+}
+
+/* Para que el background color coja toda  la página */
+* {
+    margin: 0;
+    padding: 0;
+ }
+
+/* titulo principal */
+.tituloPrin{
+  display: flex;
+  flex-direction: row;
+  justify-content:left;
+  gap: 80px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+/* play */
+
+.play{
+  display: flex;
+  flex-direction: row;
+  justify-content:left;
+  gap: 10px;
+}
+
+.pPlay{
+  color: blue;
+  margin-top: 17px;
+}
+
+#logo{
+    width: 150px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 50px;
+    
+}
+
+/* .navegacion2 nav{
+    margin-top: 27px;
+    margin-right: 50px;
+} */
+
+.navegacion2 a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+/* h1{
+  text-align: center;
+  margin-top: 10px;
+  font-family: Open Sans;
+  font-size: 34px;
+  font-weight: 800;
+  line-height: 46px;
+  letter-spacing: 0em; 
+  color: #7B30E5;
+} */
+
+.ponerTexto{
+  color: yellow;
+}
+
+.tituloVideo{
+  text-align: center;
+}
+
+h1{
+  font-family: Open Sans;
+  font-size: 34px;
+  font-weight: 800;
+  line-height: 46px;
+  letter-spacing: 0em; 
+  color: #7B30E5;
+ 
+}
+
+
+h2{
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0em;
+  color: #8D1AAB;
+  ;
+
+}
+
+h3{
+  font-family: Open Sans;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: #2281E6;
+  text-decoration: underline 3px;
+  text-underline-offset: 14px;
+}
+
+hr{
+  margin: 50px 50px;
+}
+
+p{
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: justified;
+
+}
+
+a{
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+a.dropdown-btn{
+  cursor: pointer;
+}
+
+
+img{
+  border-radius: 10px;
+}
+
+/* Se le pone estilo a las imagenes */
+.animacionSitios {
+  --_g: 10% /45% 45% no-repeat linear-gradient(#000 0 0);
+  --m:
+    left   var(--_i,0%) top    var(--_g),
+    bottom var(--_i,0%) left   var(--_g),
+    top    var(--_i,0%) right  var(--_g),
+    right  var(--_i,0%) bottom var(--_g);
+  -webkit-mask: var(--m);
+          mask: var(--m);
+  /* filter: grayscale(); */
+  transition: .3s linear;
+  cursor: pointer;
+}
+.animacionSitios:hover {
+  --_i: 10%;
+  /* filter: grayscale(0); */
+}
+
+/* Estilo a la galeria del inicio */
+.container {
+  display: flex;
+  width: 100%;
+  padding: 4% 2%;
+  box-sizing: border-box;
+  height: 70vh;
+}
+
+.box {
+  flex: 1;
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0,0,0,.1);
+  line-height: 0;
+}
+
+.box > img {
+  width: 200%;
+  height: calc(100% - 10vh);
+  object-fit: cover; 
+  transition: .5s;
+}
+
+.box > span {
+  font-size: 3.8vh;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+}
+
+.box:hover { flex: 1 1 50%; }
+.box:hover > img {
+  width: 100%;
+  height: 100%;
+}
+
+/* fin Estilo a la galeria del inicio */
+
+#sonido1{
+  text-align: left;
+  margin: 30px 70px;
+}
+
+.titulo1{
+  text-align: left;
+  margin: 30px 70px;
+}
+
+.titulo2{
+  text-align: right;
+  margin: 30px 70px 0px 0px;
+}
+
+.titulo3{
+  text-align: left;
+  margin-left: 100px;
+}
+
+.parrafo1{
+  text-align: left;
+  color: blue;
+  margin: 0 70px;
+}
+
+.contenedor1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 30px 100px;
+  gap: 50px;
+}
+
+.contenedor1 img{
+  width: 500px;
+  height: 350px;
+}
+
+.contenedor1 p{
+  text-align: justify;
+  color: blue;
+}
+
+hr{
+  margin-top: 20px;
+  color: blue;
+}
+
+.galCircular{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* Tamaño mapa */
+.sizeMap{
+  width: 600px; 
+  height: 450px;
+}
+
+/* Tamaño video */
+.sizeVideo{
+  width: 600px;
+  height: 450px;
+}
+
+/* Menu hamburguesa */
+.open{
+  color: white;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+/* --------------------medias para responsive----------------------- */
+/* Esconder galeria horizontal*/
+@media screen and (max-width: 600px) {
+  div.container {
+    display: none;
+  }
+}
+
+/* Esconder galeria galCircular*/
+@media screen and (min-width: 600px) {
+  div.galCircular {
+    display: none;
+  }
+
+  /* esconder navegacion sidenav */
+  div.open{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px){
+  section.tituloPrin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+
+  /* Esconder navegación */
+  section.navegacion2{
+    display: none;
+  }
+
+  section.contenedor1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  img.animacionSitios{
+    width: 300px;
+    height: 200px;
+  }
+
+  img.animacionSitios {
+    --g:#0000 ,#000 .5deg 90deg,#0000 91deg;
+    --m:
+      conic-gradient(from 45deg ,var(--g)) 6px 0  no-repeat,
+      conic-gradient(from 135deg,var(--g)) 0 6px  no-repeat,
+      conic-gradient(from 225deg,var(--g)) -6px 0 no-repeat,
+      conic-gradient(from 315deg,var(--g)) 0 -6px no-repeat;
+    -webkit-mask: var(--m);
+            mask: var(--m);
+    transition: .3s linear;
+    filter: grayscale(.1);
+    cursor: pointer;
+  }
+  img.animacionSitios:hover {
+    -webkit-mask-position: 0 0;
+            mask-position: 0 0;
+    filter: grayscale(0);
+  }
+
+  iframe.sizeMap{
+    width: 400px; 
+    height: 350px;
+  }
+
+  video.sizeVideo{
+    width: 400px; 
+    height: 350px;
+  }
+}
+
+
+
+
+
+
+
+/* --------------------------------------------------------------------- */
+
+/* ------------------------menu para Celular Sidevar-------------------- */
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #7B30E5;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 40px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 23px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: black;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 5px;
+    left: 70px;
+    font-size: 36px;
+    margin-right: 50px;
+  }
+
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+    display: none;
+    background-color: rgba(33, 129, 231, 1);
+    padding-left: 8px;
+  }
+
+  /* Add an active class to the active dropdown button */
+.active {
+    background-color: rgba(25, 10, 113, 1);
+    color: white;
+  }
+  
+  /* Optional: Style the caret down icon */
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+  
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+/* --------------------fin menu para Celular Sidevar-------------------- */
+
+
+/* Para hacer efecto de links en el menu de navegacion */
+nav {
+    &.primary-navigation {
+      margin: 0 auto;
+      display: block;
+    
+      /* padding: 120px 0 0 0; */  
+      text-align: center;
+      font-size: 16px;
+  
+      ul li {
+        list-style: none;
+        margin: 0 auto;
+       /*  border-left: 2px solid #3ca0e7; */
+        display: inline-block;
+        padding: 0 8px;
+        position: relative;
+        text-decoration: none;
+        text-align: center;
+        font-family: arvo;
+      }
+  
+      li a {
+        color: white;
+      }
+  
+      li a:hover {
+        color: #3ca0e7;
+      }
+  
+      li:hover {
+        cursor: pointer;
+      }
+  
+      ul li ul {
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+        padding-left: 0;
+        left: 0;
+        display: none;
+        background: rgb(156, 15, 156, 40%);
+      }
+  
+      ul li:hover > ul,
+      ul li ul:hover {
+        visibility: visible;
+        opacity: 1;
+        display: block;
+        min-width: 170px;
+        text-align: left;
+        padding-top: 20px;
+        box-shadow: 0px 3px 5px -1px #ccc;
+      }
+  
+      ul li ul li {
+        clear: both;
+        width: 100%;
+        text-align: left;
+        margin-bottom: 20px;
+        border-style: none;
+      }
+  
+      ul li ul li a:hover {
+        padding-left: 10px;
+        border-left: 2px solid #3ca0e7;
+        transition: all 0.3s ease;
+      }
+    }
+  }
+  
+  a {
+  
+      text-decoration: none;
+  
+      &:hover {
+          color: #3CA0E7;
+      }
+   
+  }
+
+  .centrar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .centrarVideo{
+    text-align: center;
+  }
+  
+   ul li ul li a { transition: all 0.5s ease; }
+
+/* ---------------------------- FOOTER ---------------------------- */
+
+footer {
+  position: relative;
+  color: white; /* Color del texto en el footer */
+  padding: 0px; /* Espaciado interno del contenido del footer */
+  width: 100%; /* Centra el contenedor en el medio */
+  height: 150px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-size: cover; /* Ajustar el tamaño de la imagen al contenedor */
+  background-position: center; /* Centrar la imagen en el contenedor */
+  background-image: linear-gradient(
+      to right,
+      rgba(25, 10, 113, 0.52) 0%,
+      12.895256916996049%,
+      rgba(33, 129, 231, 0.52) 25.790513833992097%,
+      36.709486166007906%,
+      rgba(123, 48, 229, 0.52) 47.62845849802372%,
+      60.37549407114625%,
+      rgba(141, 26, 171, 0.52) 73.12252964426878%,
+      86.56126482213439%,
+      rgba(255, 255, 255, 0.52) 100%
+    ),
+    url("/images/fondoFooter.png"); /* Ruta de la imagen de fondo */
+}
+
+.contenedor-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.sobreponer-texto {
+  position: absolute;
+  width: 100%;
+  display: block;
+  bottom: 0px; /*Posicionar abajo */
+  background-color: rgba(25, 10, 113, 0.8);
+}
+
+.parrafo-footer {
+  text-align: center;
+}
+
+/*-----------------------Fin footer----------------------------*/
+
+/*--------------------------estilos para el circulo-----------------*/
+.gallery {
+  --g: 8px;   /* the gap */
+  --s: 400px; /* the size */
+  
+  display: grid;
+  border-radius: 50%;
+}
+.gallery > img {
+  grid-area: 1/1;
+  width: 250px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+  transform: translate(var(--_x,0),var(--_y,0));
+  cursor: pointer;
+  z-index: 0;
+  transition: .3s, z-index 0s .3s;
+}
+.gallery img:hover {
+  --_i: 1;
+  z-index: 1;
+  transition: transform .2s, clip-path .3s .2s, z-index 0s;
+}
+.gallery:hover img {
+  transform: translate(0,0);
+}
+.gallery > img:nth-child(1) {
+  clip-path: polygon(50% 50%,calc(50%*var(--_i,0)) calc(120%*var(--_i,0)),0 calc(100%*var(--_i,0)),0 0,100% 0,100% calc(100%*var(--_i,0)),calc(100% - 50%*var(--_i,0)) calc(120%*var(--_i,0)));
+  --_y: calc(-1*var(--g))
+}
+.gallery > img:nth-child(2) {
+  clip-path: polygon(50% 50%,calc(100% - 120%*var(--_i,0)) calc(50%*var(--_i,0)),calc(100% - 100%*var(--_i,0)) 0,100% 0,100% 100%,calc(100% - 100%*var(--_i,0)) 100%,calc(100% - 120%*var(--_i,0)) calc(100% - 50%*var(--_i,0)));
+  --_x: var(--g)
+}
+.gallery > img:nth-child(3) {
+  clip-path: polygon(50% 50%,calc(100% - 50%*var(--_i,0)) calc(100% - 120%*var(--_i,0)),100% calc(100% - 120%*var(--_i,0)),100% 100%,0 100%,0 calc(100% - 100%*var(--_i,0)),calc(50%*var(--_i,0)) calc(100% - 120%*var(--_i,0)));
+  --_y: var(--g)
+}
+.gallery > img:nth-child(4) {
+  clip-path: polygon(50% 50%,calc(120%*var(--_i,0)) calc(50%*var(--_i,0)),calc(100%*var(--_i,0)) 0,0 0,0 100%,calc(100%*var(--_i,0)) 100%,calc(120%*var(--_i,0)) calc(100% - 50%*var(--_i,0)));
+  --_x: calc(-1*var(--g))
+}
+
+/* body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  background: #3B8686;
+} */
+
+
+
+
+/* ------------------------------------------------------------------ */
+
+/*---------------------------- Estilos para el mapa--------------- */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  height: 100%;
+  display: flex;
+}
+
+#sidebar {
+  flex-basis: 15rem;
+  flex-grow: 1;
+  padding: 1rem;
+  max-width: 30rem;
+  height: 100%;
+  box-sizing: border-box;
+  overflow: auto;
+  background-color: gray;
+  color: white;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#map {
+  flex-basis: 0;
+  flex-grow: 4;
+  height: 500px;
+  width: 500px;
+}
+
+#floating-panel {
+  position: relative;
+  top: 10px;
+  left: 25%;
+  z-index: 5;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #999;
+  text-align: center;
+  font-family: "Roboto", "sans-serif";
+  line-height: 30px;
+  padding-left: 10px;
+}
+
+#floating-panel {
+  background-color: #fff;
+  border: 0;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.3);
+  margin: 10px;
+  padding: 0 0.5em;
+  font: 400 18px Roboto, Arial, sans-serif;
+  overflow: hidden;
+  padding: 5px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 30px;
+  height: auto;
+}
+
+#map {
+  flex: auto;
+}
+
+#sidebar {
+  flex: 0 1 auto;
+  padding: 0;
+}
+#sidebar > div {
+  padding: 0.5rem;
+}
+/* -------------------------Fin Estilos para el mapa--------------- */

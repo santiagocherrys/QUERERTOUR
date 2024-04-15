@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200&family=Open+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6VHnmbUbw_YfqqOz-mH2byqpqVi4zKtI&v=weekly"></script>
+    <title>QuererTour</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+      <section class="navegacion">
+            <img id="logo" src="/images/logo.png" alt="logo querer tour">
+
+            <section class="navegacion2">
+                <a href="/acercaDe.html">Acerca de</a>
+               <!--  <select name="cars" id="cars">
+                    <option value=""><a href="">Pueblos</a></option>
+                    <option value=""><a href="">Jardin</a></option>
+                    <option value=""><a href="">Santa Fe de Antioquia</a></option>
+                    <option value="">Hispania</option>
+                  </select> -->
+                <nav role="navigation" class="primary-navigation">
+                    <ul>
+                      <li><a href="#">Pueblos &dtrif;</a>
+                        <ul class="dropdown" id="listaPueblos">
+                          <!-- dinamicamente con javascript -->
+                        </ul>
+                      </li>
+                    </ul>
+                </nav>
+
+                <nav role="navigation" class="primary-navigation">
+                    <ul>
+                      <li><a href="#">Sitios de Medellín &dtrif;</a>
+                        <ul class="dropdown" id="listaMedellin">
+                          <!-- dinamicamente con javascript -->
+                        </ul>
+                      </li>
+                    </ul>
+                </nav>
+                
+                <nav role="navigation" class="primary-navigation">
+                  <ul>
+                    <li><a href="#">Comercio Pueblos &dtrif;</a>
+                      <ul class="dropdown">
+                        <li><a href="/pueblos/comercioPueblos.html">Ir</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+              </nav>
+
+                <nav role="navigation" class="primary-navigation">
+                    <ul>
+                      <li><a href="#">idiomas &dtrif;</a>
+                        <ul class="dropdown">
+                          <li><a href="#">Español</a></li>
+                          <li><a href="#">Ingles</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                </nav>
+            </section>
+
+            <!-- Menu para celular -->
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" style="margin-top: 10px; margin-left: 80px;" class="closebtn" >&times;</a>
+          <a href="#">Acerca de</a>
+          <a class="dropdown-btn">Pueblos &dtrif; 
+            <i class="fa fa-caret-down"></i></a>
+          <div id ="ListaPueblosCel" class="dropdown-container">
+            <!-- <a href="#">Venecia</a> -->
+            
+          </div>
+          <a class="dropdown-btn">Sitios de Medellin &dtrif; 
+            <i class="fa fa-caret-down"></i></a>
+          <div class="dropdown-container">
+            <a href="/index.html">Comuna 13 (Graffitour - Escaleras eléctricas)</a>
+            <a href="/index.html">Jardín Botánico</a>
+            <a href="/index.html">Museo Casa de la memoria</a>
+            <a href="/index.html">Museo El Castillo</a>
+            <a href="/index.html">Parque Arví</a>
+            <a href="/index.html">Parque Botero</a>
+            <a href="/index.html">Parque de la Conservación (Antes Zoológico de Santa Fé)</a>
+            <a href="/index.html">Parque Explora</a>
+            <a href="/index.html">Parque Pies Descalzos</a>
+            <a href="/index.html">Planetario</a>
+            <a href="/index.html">Pueblito Paisa(Cerro Nutibara)</a>
+        
+          </div>
+          <a href="/pueblos/comercioPueblos.html">Comercio pueblos</a>
+          <a href="#">Idiomas</a>
+        </div>
+        
+        <div class="open" style="text-align: right"> <span style="font-size:30px;cursor:pointer" id="open">&#9776;</span></div>
+
+        </section>
+
+        
+       
+    </header>
+
+    <main>
+
+      <section class="tituloPrin">
+        <div class="play">
+          <a href="#" id="sonido">
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+              <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+            </svg>
+          </a>
+          <p class="pPlay">presione play para escuchar el sonido ambiental</p>
+          
+        </div>
+        
+        <h1 id="tituloPrinc"></h1>
+  
+      </section>
+     
+      
+
+      <!-- Pantalla Grande -->
+      <div class="container">
+        <div class="box">
+          <img class="imgPrinc" src="" alt="No se encuentra la imagen">
+          <span class="tituloImgPrinc"></span>
+        </div>
+        <div class="box">
+          <img class="imgPrinc" src="" alt="No se encuentra la imagen">
+          <span class="tituloImgPrinc"></span>
+        </div>
+        <div class="box">
+          <img class="imgPrinc" src="" alt="No se encuentra la imagen">
+          <span class="tituloImgPrinc"></span>
+        </div>
+        <div class="box">
+          <img class="imgPrinc" src="" alt="No se encuentra la imagen">
+          <span class="tituloImgPrinc"></span>
+        </div>
+      </div>
+
+      <!-- Pantalla pequeña -->
+      <div class="galCircular">
+        <div class="gallery">
+          <img class="imgPrincPeq" src=""  alt="No se encuentra la imagen">
+          <img class="imgPrincPeq" src=""  alt="No se encuentra la imagen">
+          <img class="imgPrincPeq" src=""  alt="No se encuentra la imagen">
+          <img class="imgPrincPeq" src=""  alt="No se encuentra la imagen">
+        </div>
+      </div>
+
+      <br>
+      <p align="center" id="ponerTexto"></p>
+
+
+      <section>
+        <h2 class="titulo1">Historia</h2>
+
+        <div class="parrafo1"> 
+        </div>
+
+        <a href="#" id="sonido1" class="reproducir" sound = "1">
+          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+          </svg>
+        </a>
+      </section>
+      <hr>
+
+
+      <section>
+        <div class="titulo2">
+          <h2>Algunos sitios de interes</h2>
+          <h3 class="titulos_SitiosInteres"></h3>
+        </div>
+        
+        
+
+        <section class="contenedor1">
+          <div>
+            <p class="sitiosInteres"></p>
+            <a href="#"  class="reproducir" sound = "2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+              </svg>
+            </a>
+          </div>
+          
+          <img class="animacionSitios"src="" alt="imagen 1">
+        </section>
+      </section>
+
+      <hr>
+
+      <section>
+        <h3 class="titulo3 titulos_SitiosInteres" ></h3>
+        <section class="contenedor1">
+          <img class="animacionSitios" src="" alt="imagen 2">
+          <div>
+            <p class="sitiosInteres"></p>
+            <a href="#" class="reproducir" sound = "3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+              </svg>
+            </a>
+          </div>
+          
+          
+        </section>
+      </section>
+
+      <hr>
+
+      <section>
+        <h3 class="titulo2 titulos_SitiosInteres"></h3>
+
+        <section class="contenedor1">
+          <div>
+            <p class="sitiosInteres"></p>
+            <a href="#" class="reproducir" sound = "4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+              </svg>
+            </a>
+          </div>
+          
+          <img class="animacionSitios" src="" alt="imagen 3">
+          
+        </section>
+      </section>
+
+      <hr>
+
+      <section>
+        <h3 class="titulo3 titulos_SitiosInteres"></h3>
+        <section class="contenedor1">
+          <img class="animacionSitios" src="" alt="imagen 4">
+          <div>
+            <p class="sitiosInteres"></p>
+            <a href="#" class="reproducir" sound = "5">
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+              </svg>
+            </a>
+          </div>
+          
+          
+        </section>
+      </section>
+
+      <hr>
+
+      <section>
+        <h3 class="titulo2 titulos_SitiosInteres"></h3>
+
+        <section class="contenedor1">
+          <div>
+            <p class="sitiosInteres"></p>
+            <a href="#" class="reproducir" sound = "6">
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+              </svg>
+            </a>
+          </div>
+          
+          <img class="animacionSitios" src="" alt="imagen 5">
+          
+        </section>
+      </section>
+
+      <hr>
+
+      <h2 class="tituloVideo">Visita a este maravilloso pueblo</h2>
+
+      
+      <div class="centrar">
+        <!-- Mapa de Jardín -->
+        <div>
+              <strong>Start(A):</strong>
+            <select id="start">
+              <!-- <option value="Parque principal Jardín Antioquia">Parque Principal</option>
+              <option value="Mirador Cristo Rey Jardín Antioquia">Mirador Cristo Rey</option>
+              <option value="Tour de las abejas Jardín Antioquia">Tour de las abejas</option>
+              <option value="La Garrucha Jardín Antioquia">La Garrucha</option>
+              <option value="Cueva del esplendor Jardín Antioquia">Cueva del esplendor</option> -->
+            </select>
+            <br />
+            <strong>End(B):</strong>
+            <select id="end">
+              <!-- <option value="Parque principal Jardín Antioquia">Parque Principal</option>
+              <option value="Mirador Cristo Rey Jardín Antioquia">Mirador Cristo Rey</option>
+              <option value="Tour de las abejas Jardín Antioquia">Tour de las abejas</option>
+              <option value="La Garrucha Jardín Antioquia">La Garrucha</option>
+              <option value="Cueva del esplendor Jardín Antioquia">Cueva del esplendor</option> -->
+            </select>
+      
+            <br>
+      
+            <b>Mode of Travel: </b>
+            <select id="mode">
+              <option value="DRIVING">Driving</option>
+              <option value="WALKING">Walking</option>
+              <option value="BICYCLING">Bicycling</option>
+            </select>
+            <div id="sidebar"></div>
+        </div>
+      <div id="floating-panel">
+        
+  
+        
+        <div id="container">
+          
+        </div>
+        
+      </div>
+        <div id="map"></div>
+        </div>
+      </div>
+      <hr>
+
+
+      <h2 class="tituloVideo">Explora</h2>
+
+      <div class="centrarVideo">
+        <video class="sizeVideo"  style="cursor: pointer;">
+          <source src="" type="video/mp4">
+        Your browser does not support the video tag.
+        </video> 
+      </div>
+      
+      
+      
+      <!-- Audios -->
+      <section id="audios">
+        <audio id="myAudio">
+          <source src="/audio/Vidrio.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </section>
+      
+    </main>
+
+    <footer>
+      <div class="contenedor-footer">
+        <div class="sobreponer-texto">
+          <p class="parrafo-footer">Copyright © 2024 Querertour.com™. Todos los derechos reservados</p>
+        </div>
+      </div>
+    </footer>
+    
+    <script src="js/dbSitiosMedellin.js"></script>
+    <script src="js/dbPueblos.js"></script>
+    <script src="js/audio.js" type="module"></script>
+    <script src="js/pueblo.js" type="module"></script>
+    <script src="js/app.js" type="module"></script>
+    <script src="../api/url.js" type="module"></script>
+</body>
+</html>
