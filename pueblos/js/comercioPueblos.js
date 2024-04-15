@@ -8,9 +8,9 @@ let infoWindow;
 let markers = [];
 
 //
-//"https://developers.google.com/maps/documentation/javascript/images/marker_green"
-const MARKER_PATH =
-"https://img.icons8.com/2266EE/search";
+const MARKER_PATH = "https://developers.google.com/maps/documentation/javascript/images/marker_green";
+/* const MARKER_PATH =
+  "https://img.icons8.com/2266EE/search"; */
 const hostnameRegexp = new RegExp("^https?://.+?/");
 
 //const jardin = { lat: sitiosInteres['jardin'].latitud[0], lng: sitiosInteres['jardin'].longitud[0] };
