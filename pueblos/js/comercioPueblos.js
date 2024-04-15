@@ -1,6 +1,6 @@
 /* Organización del código*/
 
-import { getTowns } from "../../api/api.js";
+import { getTowns } from "/pueblos/api/api.js";
 
 let map;
 let places;
