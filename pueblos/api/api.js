@@ -1,4 +1,4 @@
-import { urlPueblos } from "url.js";
+import { urlPueblos } from "/pueblos/api/url.js";
 
 
 export async function getTowns() {
