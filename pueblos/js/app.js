@@ -2,8 +2,8 @@
 
 /* Importaciones */
 import { getTowns } from "/pueblos/api/api.js";
-import { estadoBoton, playAudio } from "audio.js";
-import { initMap } from "pueblo.js";
+import { estadoBoton, playAudio } from "/pueblos/js/audio.js";
+import { initMap } from "/pueblos/js/pueblo.js";
 
 /* Selectores*/
 
