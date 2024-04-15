@@ -16,6 +16,7 @@ const hostnameRegexp = new RegExp("^https?://.+?/");
 //const jardin = { lat: sitiosInteres['jardin'].latitud[0], lng: sitiosInteres['jardin'].longitud[0] };
 const lugar = document.getElementById('lugar');
 const sitios = document.getElementById('sitios');
+const escogerPueblo = document.getElementById('escogerPueblo');
 let position;
 
 
