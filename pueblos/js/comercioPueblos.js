@@ -175,8 +175,7 @@ function search(sitio, posicion) {
       // assign a letter of the alphabetic to each marker icon.
       for (let i = 0; i < results.length; i++) {
         const markerLetter = String.fromCharCode("A".charCodeAt(0) + (i % 26));
-        //const markerIcon = MARKER_PATH + markerLetter + ".png";
-        const markerIcon = MARKER_PATH;
+        const markerIcon = MARKER_PATH + markerLetter + ".png";
 
         console.log(results[i].geometry.location);
         // Use marker animation to drop the icons incrementally on the map.
@@ -217,8 +216,7 @@ function dropMarker(i) {
 function addResult(result, i) {
   const results = document.getElementById("results");
   const markerLetter = String.fromCharCode("A".charCodeAt(0) + (i % 26));
-  //const markerIcon = MARKER_PATH + markerLetter + ".png";
-  const markerIcon = MARKER_PATH;
+  const markerIcon = MARKER_PATH + markerLetter + ".png";
   const tr = document.createElement("tr");
 
   tr.style.backgroundColor = i % 2 === 0 ? "#F0F0F0" : "#FFFFFF";
