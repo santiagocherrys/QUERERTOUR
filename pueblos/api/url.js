@@ -1,2 +1,2 @@
-export const urlPueblos = 'https://json-server-querertour.onrender.com/pueblos';
-export const urlSitiosMedellin = 'https://json-server-querertour.onrender.com/sitiosInteresMed';
+export const urlPueblos = 'https://writers-republic-vegetation-lives.trycloudflare.com/pueblos';
+export const urlSitiosMedellin = 'https://writers-republic-vegetation-lives.trycloudflare.com/sitiosInteresMed';
