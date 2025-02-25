@@ -1,2 +1,2 @@
-export const urlPueblos = 'https://writers-republic-vegetation-lives.trycloudflare.com/pueblos';
-export const urlSitiosMedellin = 'https://writers-republic-vegetation-lives.trycloudflare.com/sitiosInteresMed';
+export const urlPueblos = 'https://nascar-pepper-muslim-suspected.trycloudflare.com/pueblos';
+export const urlSitiosMedellin = 'https://nascar-pepper-muslim-suspected.trycloudflare.com/sitiosInteresMed';
