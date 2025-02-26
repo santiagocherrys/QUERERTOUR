@@ -1,0 +1,23 @@
+{
+    "headers": [
+      {
+        "source": "/db/dbPueblos.js",
+        "headers": [
+          {
+            "key": "Content-Type",
+            "value": "text/javascript"
+          }
+        ]
+      },
+      {
+        "source": "/db/dbSitiosMedellin.js",
+        "headers": [
+          {
+            "key": "Content-Type",
+            "value": "text/javascript"
+          }
+        ]
+      }
+    ]
+  }
+  
